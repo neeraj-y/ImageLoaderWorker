@@ -14,7 +14,7 @@ If the image is a large image, this can cause janking effect on UI.
 
 Note:: Using Promise API to asynchrnously fetching image will also result in same effect, as eventually we just delegate inserting image into DOM to a callback.
 
-To overcome the baove side-effects, we'll utilise image.decode() API which is supported by all major desktop and mobile browsers.
+To overcome this, we'll utilise image.decode() API which is supported by all major desktop and mobile browsers.
 The syntax for image.decode() API is similar to Promise API i.e. we can use .then/.catch().
 
 e.g.
