@@ -1,7 +1,7 @@
 # ImageLoaderWorker
 Web worker to load images in parallel
 
-For pre-loading image resources, we'll create a separate thread (aka Web Worker) that fetches image over http in paralle execution to main thread.
+For pre-loading image resources, we'll create a separate thread (aka Web Worker, which will execute in parallel to our main thread) that will fetch image over http.
 Note: In normal scenario, when we create image using javascript, we bind to `onload` event, which is fired once image is loaded completely.
 
 e.g. 
